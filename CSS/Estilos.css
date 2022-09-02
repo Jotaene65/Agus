@@ -1,0 +1,57 @@
+h1{
+    background-color: rgba(93, 231, 231, 0.774);
+    font-family: 'Sofia';
+    font-size: 200%;
+}
+
+nav{
+
+    background-color: hsla(113, 87%, 78%, 0.425)
+
+}
+header{
+    margin-top: auto;
+}
+.centrado {
+    text-align: center;
+}
+#suscribite{
+    position: fixed;
+    top: 30px;
+    right: 15px; 
+    border: solid 2px red; 
+    border-radius: 10px;
+
+}
+.image{
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: aquamarine;
+}
+body{
+    background-image: url(/IMAGES/hd-wallpaper-1468883_1920.jpg)
+}
+h2{
+    font-family: 'Sofia', cursive;
+}
+form{
+    margin-left: 5px;
+}
+label{
+    color: white;
+    font-family: 'Sofia';
+}
+input{
+    border: 4px solid #006699;
+    border-radius: 7px;
+}
+#resaltar{
+    font-family: 'Sofia';
+    text-decoration-color: black;
+    font-size: 120%;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

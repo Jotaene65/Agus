@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+        <title>Agus Cocina</title>
+        <link rel="stylesheet" href="./CSS/Estilos.css">
+    </head>
+    <body>
+        <header>
+            <nav class="centrado"> 
+         
+                <h1>Agus Cocina</h1>
+    
+                <p id="resaltar">Canal de cocina infantil dedicado a fomentar el hábito de cocinar en los niños y fomentar una alimentación saludable.</p>
+                    <div>
+                    <a id="suscribite" href="https://www.youtube.com/channel/UCdp1ZRkqdS5fQVsuLbq8QZA" target="_blank">Suscribite a mi canal</a>
+                    </div>
+                <tr id="barra">
+                    <th><a href="Index.html"><img src="IMAGES/Inicio.webp" alt="Inicio"></a></th>
+                    <th><a href="Contacto.html"><img src="IMAGES/Contacto.webp" alt="Contacto"></a></th>
+                    <th><a href="pie"><img src="IMAGES/Pie.webp" alt="Ir al Pie"></a></th>
+                </tr>
+
+        </header>
+
+        <main>
+            <br>
+
+
+            <form action="show-data.html">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" required  id="apellido">
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+                <br>
+                <label for="fecha Nac.">Fecha Nac.</label>
+                <input type="date" name="fecha Nac." id="fecha Nac.">
+                <br>
+                <label for="clave.">Clave.</label>
+                <input type="password" name="clave." id="clave.">
+                <br>
+                <label for="comentarios.">Comentarios.</label>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                <br>
+                <label for="altura">Altura</label>
+                <input type="number" step="0.01" name="altura" id="altura">
+                <br>
+                <label for="mail">Ingrese su mail</label>
+                <input type="email" step="0.01" name="mail" id="mail">
+    
+    
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </form>
+        </main>
+        
+
+
+
+
+
+    </body>
